@@ -1,0 +1,86 @@
+# Byte-compiled & interpreter cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS/Editor cache
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+Pipfile.lock
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Packaging and distribution
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Test results, coverage & temp files
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Sphinx build
+docs/_build/
+
+# PyInstaller output
+*.spec
+
+# Model & training artefacts
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pb
+checkpoints/
+runs/
+outputs/
+weights/
+tensorboard/
+wandb/
+
+# Data sets & generated data
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# Hugging Face cache
+~/.cache/huggingface/
+huggingface_hub_cache/
+hf_home/
+hf_cache/
+
+# LLM experiment outputs
+results/
+logs/
+outputs/
+
+# Ignore secrets
+secrets.*
+*.key
+
+# Miscellaneous
+*.bak
+*.tmp
+*.swp
